@@ -1,6 +1,6 @@
 ch = input("")
 if((ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z')): 
-    print("Invalid") 
+    print("invalid") 
 elif(ch >= '0' and ch <= '9'):
     num=int(ch)
     if (num % 2) == 0:
@@ -8,4 +8,4 @@ elif(ch >= '0' and ch <= '9'):
     else:
         print("Odd")
 else:
-    print("Invalid")
+    print("invalid")
