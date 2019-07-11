@@ -3,4 +3,4 @@ while(True):
     if((ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z')): 
         print("Alphabet") 
     else:
-        print("Not an Alphabet")
+        print("No")
